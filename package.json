@@ -21,6 +21,9 @@
 		"node": ">=0.10.3"
 	},
 	"preferGlobal": false,
+	"bin": {
+		"reviewServer": "bin/reviewServer.js"
+	},
 	"scripts": {
 		"test": "node test.js"
 	},
