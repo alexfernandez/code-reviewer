@@ -1,0 +1,28 @@
+{
+	"name": "code-reviewer",
+	"version": "0.0.1",
+	"description": "Helps code reviews on GitHub pull requests using a Trello board",
+	"homepage": "https://github.com/alexfernandez/code-reviewer",
+	"contributors": ["Alex Fernández <alexfernandeznpm@gmail.com>"],
+	"license": "MIT",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alexfernandez/code-reviewer"
+	},
+	"dependencies": {
+		"prototypes": ">= 0.4.0",
+		"log": "1.4.*",
+		"stdio": "^0.2.3",
+		"testing": "*"
+	},
+	"keywords" : ["code review", "pull request", "GitHub", "Trello"],
+	"engines": {
+		"node": ">=0.10.3"
+	},
+	"preferGlobal": false,
+	"scripts": {
+		"test": "node test.js"
+	},
+	"private": false
+}
