@@ -13,11 +13,12 @@ var reviewServer = require('../lib/reviewServer');
 
 // globals
 var log = new Log('info');
+var credentials = {};
 
 // init
 try
 {
-	var credentials = require('./credentials.json');
+	credentials = require('./credentials.json');
 }
 catch(exception)
 {
