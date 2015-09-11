@@ -18,7 +18,7 @@ var credentials = {};
 // init
 try
 {
-	credentials = require('./credentials.json');
+	credentials = require('../credentials.json');
 }
 catch(exception)
 {
