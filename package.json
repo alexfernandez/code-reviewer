@@ -1,14 +1,14 @@
 {
-	"name": "code-reviewer",
+	"name": "trello-reviewer",
 	"version": "0.0.1",
 	"description": "Helps code reviews on GitHub pull requests using a Trello board",
-	"homepage": "https://github.com/alexfernandez/code-reviewer",
+	"homepage": "https://github.com/alexfernandez/trello-reviewer",
 	"contributors": ["Alex Fernández <alexfernandeznpm@gmail.com>"],
 	"license": "MIT",
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/alexfernandez/code-reviewer"
+		"url": "https://github.com/alexfernandez/trello-reviewer"
 	},
 	"dependencies": {
 		"prototypes": ">= 0.4.0",
