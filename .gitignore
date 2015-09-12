@@ -28,5 +28,5 @@ node_modules
 
 # Credentials
 credentials.*
-samples
+samples/*.json
 
