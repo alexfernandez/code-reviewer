@@ -14,6 +14,7 @@
 		"prototypes": ">= 0.4.0",
 		"log": "1.4.*",
 		"stdio": "^0.2.3",
+		"async": "*",
 		"testing": "*"
 	},
 	"keywords" : ["code review", "pull request", "GitHub", "Trello"],
