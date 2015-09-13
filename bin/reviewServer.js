@@ -34,5 +34,11 @@ var options = stdio.getopt({
 });
 credentials.overwriteWith(options);
 
-reviewServer.start(credentials);
+reviewServer.start(credentials, function(error)
+{
+	if (error)
+	{
+		log.error('Could not start server: %s', error);
+	}
+});
 
