@@ -28,7 +28,7 @@ exports.test = function(callback)
 	{
 		tests[lib] = require('./lib/' + lib + '.js').test;
 	});
-	testing.run(tests, 10000, callback);
+	testing.run(tests, 50000, callback);
 };
 
 // run tests if invoked directly
