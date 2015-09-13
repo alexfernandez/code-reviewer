@@ -28,7 +28,7 @@ var options = stdio.getopt({
 	token: {key: 't', args: 1, description: 'Consumer token for Trello'},
 	key: {key: 'k', args: 1, description: 'Key for Trello'},
 	secret: {key: 's', args: 1, description: 'Secret value to access the server'},
-	port: {key: 'p', args: 1, description: 'Port to start the server', default: 7431},
+	port: {key: 'p', args: 1, description: 'Port to start the server'},
 	quiet: {key: 'q', description: 'Do not log any messages'},
 	debug: {key: 'd', description: 'Log debug messages'},
 });
