@@ -40,5 +40,7 @@ reviewServer.start(credentials, function(error)
 	{
 		log.error('Could not start server: %s', error);
 	}
+	log.notice('Review Server configured and ready');
+
 });
 
