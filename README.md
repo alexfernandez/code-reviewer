@@ -2,11 +2,23 @@
 
 Manage code reviews on GitHub using Trello boards.
 
-Creates a card for every GitHub pull request.
+Creates a card for every GitHub pull request;
+follows the lifecycle of the pull request using the board.
 
 ## Quick Start
 
-To see how trello-reviwer works.
+To see how trello-reviwer works quickly.
+
+Add the default webhook to your GitHub repository.
+
+Choose "Let me select individual events", and tick just the events selected in the image below:
+
+* Delete,
+* Pull Request,
+* Issue comment,
+* and Pull Request review comment.
+
+![GitHub configuration](doc/github-configuration.png)
 
 ### Configure
 
