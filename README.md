@@ -4,7 +4,11 @@ Manage code reviews on GitHub using Trello boards.
 
 Creates a card for every GitHub pull request.
 
-## Getting Started
+## Quick Start
+
+To see how trello-reviwer works.
+
+### Configure
 
 [Create a consumer token](https://trello.com/1/authorize?key=5fb96cf3838f76d61a98e9c74da8ccf6&name=TrelloReviewer&expiration=never&response_type=token&scope=read,write).
 
