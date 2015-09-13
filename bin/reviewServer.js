@@ -18,11 +18,11 @@ var credentials = {};
 // init
 try
 {
-	credentials = require('../credentials.json');
+	credentials = require(process.cwd() + '/credentials.json');
 }
 catch(exception)
 {
-	log.info('Please enter default values in a file called credentials.json');
+	log.info('Please enter default values in a file credentials.json in the current directory');
 }
 var options = stdio.getopt({
 	token: {key: 't', args: 1, description: 'Consumer token for Trello'},
