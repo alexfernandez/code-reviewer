@@ -7,7 +7,7 @@ follows the lifecycle of the pull request using the board.
 
 ## Quick Start
 
-To see how trello-reviwer works quickly.
+To see how trello-reviewer works quickly.
 
 Add the default webhook to your GitHub repository.
 
