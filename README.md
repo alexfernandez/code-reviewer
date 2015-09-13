@@ -14,7 +14,7 @@ trello-reviewer should be installed on a public server of your own,
 preferably your integration server.
 Don't have an integration server?
 Well, you really should have one!
-Choose a machine with node > v0.10 installed, and clone it:
+Choose a machine with node >= v0.10 installed, and clone it:
 
     $ git clone https://github.com/alexfernandez/trello-reviewer.git
 
