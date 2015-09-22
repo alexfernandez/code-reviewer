@@ -1,7 +1,7 @@
 {
 	"name": "trello-reviewer",
 	"version": "0.1.1",
-	"description": "Helps code reviews on GitHub pull requests using a Trello board",
+	"description": "Manage code reviews on GitHub pull requests using a Trello board",
 	"homepage": "https://github.com/alexfernandez/trello-reviewer",
 	"contributors": ["Alex Fernández <alexfernandeznpm@gmail.com>"],
 	"license": "MIT",
