@@ -1,6 +1,6 @@
 {
 	"name": "trello-reviewer",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Manage code reviews on GitHub pull requests using a Trello board",
 	"homepage": "https://github.com/alexfernandez/trello-reviewer",
 	"contributors": ["Alex Fernández <alexfernandeznpm@gmail.com>"],
